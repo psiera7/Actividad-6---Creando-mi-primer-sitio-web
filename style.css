@@ -1,0 +1,73 @@
+body {
+    font-family: 'Papyrus', serif;
+    background-color: #dd9912;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ffcc66;
+    padding: 20px;
+    background-image: url(Settra-the-Imperishable-Tomb-Kings-Warhammer-Fantasy-8172465.png);
+    width: auto;
+}
+
+h1 {
+    color: #4d2600;
+    
+}
+
+p{
+    color: #663300;
+    text-align: justify;
+}
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+    position: relative;
+    padding: 20px;
+}
+
+section:before,
+section:after {
+    content: '𓃀';
+    font-size: 30px;
+    color: #663300;
+    position: absolute;
+    top: 0;
+}
+
+section:before {
+    left: 0;
+    transform: rotate(-90deg);
+}
+
+section:after {
+    right: 0;
+    transform: rotate(90deg);
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ffcc66;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
